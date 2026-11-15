@@ -14,6 +14,7 @@ a{color:inherit}
 .kicker{margin:0 0 6px;font-size:15px;letter-spacing:6px;color:var(--gold)}
 h1{margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(48px,7vw,88px);letter-spacing:.32em;text-indent:.32em;color:var(--stone);line-height:1.2}
 .lead{margin:18px 0 28px;font-family:var(--serif);font-size:clamp(17px,1.6vw,21px);line-height:2.1;letter-spacing:.12em;color:var(--ink)}
+.lead span,.note span{display:block;white-space:nowrap}
 .go{display:inline-block;padding:10px 28px;border:1px solid var(--stone);border-radius:999px;text-decoration:none;color:var(--stone);letter-spacing:.3em;text-indent:.3em;font-size:15px;background:rgba(251,243,228,.55)}
 .go:hover{background:var(--stone);color:var(--paper2)}
 
@@ -44,7 +45,8 @@ footer{max-width:880px;margin:48px auto 0;padding:24px 24px 40px;border-top:1px 
   body{font-size:16px}
   .hero{min-height:100svh;background-image:url(img/hero-tall.jpg);background-position:center bottom;align-items:flex-start;justify-content:center;padding:14svh 16px 40px}
   .hero-text{width:100%;max-width:360px;padding-left:22%}
-  .lead{margin:14px 0 22px}
+  .lead{margin:14px 0 22px;font-size:min(17px,4.4vw);letter-spacing:.08em}
+  .note{font-size:min(14px,3.6vw)}
   main{padding:44px 16px 16px}
   .essay{font-size:17px;margin-bottom:48px}
   .card{padding:16px;gap:14px}
