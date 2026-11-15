@@ -39,6 +39,7 @@ h2::after{content:"";display:block;width:36px;height:1px;background:var(--gold);
 
 footer{max-width:880px;margin:48px auto 0;padding:24px 24px 40px;border-top:1px solid var(--line);text-align:center;color:var(--mute)}
 .sign{margin:0 0 4px;font-family:var(--serif);letter-spacing:.4em;text-indent:.4em;color:var(--stone)}
+.usage{margin:0 0 6px;font-size:13px;letter-spacing:2px}
 .copyright{font-size:12px;letter-spacing:1px}
 
 @media(max-width:700px){

@@ -57,7 +57,13 @@
 
 <footer>
   <p class="sign">青石旅人</p>
+  <p id="usage" class="usage" hidden></p>
   <small class="copyright">© 2026 青石驛・內容為原創，未經同意請勿轉載</small>
 </footer>
+<script>
+// 進站人次：讀取 GoatCounter 公開計數（首頁路徑為「/」，只取得總數，不送出任何個人資料）。
+fetch('https://imqingstone.goatcounter.com/counter/%2F.json').then(r => r.ok ? r.json() : null)
+  .then(d => { const el = document.getElementById('usage'); if (el && d && d.count) { el.textContent = '已有 ' + d.count + ' 位旅人途經此驛'; el.hidden = false; } }).catch(() => {});
+</script>
 <script data-goatcounter="https://imqingstone.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body></html>
