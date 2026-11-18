@@ -37,6 +37,12 @@ h2::after{content:"";display:block;width:36px;height:1px;background:var(--gold);
 .desc{font-size:15px;line-height:1.8;color:var(--mute)}
 .note{margin:28px auto 0;max-width:34em;text-align:center;font-size:14px;color:var(--mute)}
 
+/* 驛站後院：遊戲另闢一區 */
+.yard{margin-top:64px}
+.yard .cards{grid-template-columns:1fr;max-width:440px;margin:0 auto}
+.yard-lead{margin:-8px auto 20px;text-align:center;font-family:var(--serif);font-size:16px;line-height:2;letter-spacing:.08em;color:var(--mute)}
+.yard-lead span{display:inline-block}
+
 footer{max-width:880px;margin:48px auto 0;padding:24px 24px 40px;border-top:1px solid var(--line);text-align:center;color:var(--mute)}
 .sign{margin:0 0 4px;font-family:var(--serif);letter-spacing:.4em;text-indent:.4em;color:var(--stone)}
 .usage{margin:0 0 6px;font-size:13px;letter-spacing:2px}
@@ -48,6 +54,7 @@ footer{max-width:880px;margin:48px auto 0;padding:24px 24px 40px;border-top:1px 
   .hero-text{width:100%;max-width:360px;padding-left:22%}
   .lead{margin:14px 0 22px;font-size:min(17px,4.4vw);letter-spacing:.08em}
   .note{font-size:min(14px,3.6vw)}
+  .yard{margin-top:48px}
   main{padding:44px 16px 16px}
   .essay{font-size:17px;margin-bottom:48px}
   .card{padding:16px;gap:14px}
