@@ -46,6 +46,12 @@ h2::after{content:"";display:block;width:36px;height:1px;background:var(--gold);
 footer{max-width:880px;margin:48px auto 0;padding:24px 24px 40px;border-top:1px solid var(--line);text-align:center;color:var(--mute)}
 .sign{margin:0 0 4px;font-family:var(--serif);letter-spacing:.4em;text-indent:.4em;color:var(--stone)}
 .usage{margin:0 0 6px;font-size:13px;letter-spacing:2px}
+.social{display:flex;justify-content:center;gap:12px;margin:10px 0 4px}
+.social a{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:4px 14px;border:1px solid var(--line);border-radius:999px;background:var(--paper2);color:var(--stone);text-decoration:none;font-size:14px;letter-spacing:1px}
+.social a:hover{border-color:var(--stone)}
+.social svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.social svg .dot{fill:currentColor;stroke:none}
+.social-note{margin:0 0 8px;font-size:12px;letter-spacing:1px}
 .copyright{font-size:12px;letter-spacing:1px}
 
 @media(max-width:700px){
