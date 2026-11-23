@@ -42,7 +42,7 @@ h2::after{content:"";display:block;width:36px;height:1px;background:var(--gold);
 
 /* 驛站後院：遊戲另闢一區 */
 .yard{margin-top:64px}
-.yard .cards{grid-template-columns:1fr;max-width:440px;margin:0 auto}
+.yard .cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr))}
 .yard-lead{margin:-8px auto 20px;text-align:center;font-family:var(--serif);font-size:16px;line-height:2;letter-spacing:.08em;color:var(--mute)}
 .yard-lead span{display:inline-block}
 
