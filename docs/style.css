@@ -9,7 +9,7 @@ a{color:inherit}
 :focus-visible{outline:3px solid var(--stone);outline-offset:3px}
 
 /* 主視覺：電腦用橫幅，手機用直幅 */
-.hero{min-height:min(100vh,56.25vw);background:var(--paper) url(img/hero-wide.jpg) center/cover no-repeat;display:flex;align-items:center;justify-content:flex-end;padding:48px max(6vw,24px)}
+.hero{min-height:min(100vh,56.25vw);background:var(--paper) url(img/hero-wide.jpg?v=2) center/cover no-repeat;display:flex;align-items:center;justify-content:flex-end;padding:48px max(6vw,24px)}
 .hero-text{width:min(460px,44vw);text-align:center}
 .kicker{margin:0 0 6px;font-size:15px;letter-spacing:6px;color:var(--gold)}
 h1{margin:0;font-family:var(--serif);font-weight:600;font-size:clamp(48px,7vw,88px);letter-spacing:.32em;text-indent:.32em;color:var(--stone);line-height:1.2}
@@ -59,7 +59,7 @@ footer{max-width:880px;margin:48px auto 0;padding:24px 24px 40px;border-top:1px 
 
 @media(max-width:700px){
   body{font-size:16px}
-  .hero{min-height:100svh;background-image:url(img/hero-tall.jpg);background-position:center bottom;align-items:flex-start;justify-content:center;padding:14svh 16px 40px}
+  .hero{min-height:100svh;background-image:url(img/hero-tall.jpg?v=2);background-position:center bottom;align-items:flex-start;justify-content:center;padding:14svh 16px 40px}
   .hero-text{width:100%;max-width:360px;padding-left:22%}
   .lead{margin:14px 0 22px;font-size:min(17px,4.4vw);letter-spacing:.08em}
   .note{font-size:min(14px,3.6vw)}
